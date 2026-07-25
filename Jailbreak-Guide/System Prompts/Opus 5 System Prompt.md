@@ -1,8 +1,4 @@
-# System Prompt — Claude Opus 5 (claude.ai chat interface)
-
-**Captured:** 2026-07-24
-**Surface:** Anthropic web/mobile chat
-**Accuracy note:** Reproduced verbatim or near-verbatim throughout, including full tool parameter schemas.
+# System Prompt — Claude Opus 5
 
 ---
 
@@ -1504,8 +1500,4 @@ security.ubuntu.com, static.crates.io, www.npmjs.com, www.npmjs.org, yarnpkg.com
 /topics/recent-work.md
 ```
 
-All currently show `sources: [backfill]`.
-
 ---
-
-*End of system prompt.*
