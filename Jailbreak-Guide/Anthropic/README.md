@@ -106,7 +106,7 @@ Anthropic's flagship LLM family. Known for strong reasoning, coding, extended th
 **Injections!** If you do NSFW on Claude.ai, you may get **a myriad of injections from Anthropic to try to stop the model from fulfilling the request**:
 
 1. Firstly ALL of my jailbreaks are made to fight these injections since they can appear in the API as well.
-2. Check out the Injections.md to see the full breadth of these injections.
+2. Check out this link for more information on reminders and injections: https://www.reddit.com/r/ClaudeAIJailbreak/s/rX39Pfkn0b
 
 ---
 
