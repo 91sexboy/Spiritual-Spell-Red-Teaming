@@ -22,6 +22,7 @@ Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabil
 | **[IGENIUS / Colosseum](IGENIUS/)** | iGenius + NVIDIA | [★★★☆☆☆☆☆☆☆] 3/10 | 7/10 | Unknown | Free tier | Proprietary | 1 |
 | **[Indus](Indus%20by%20Sarvam%20AI/)** | Sarvam AI | [★★☆☆☆☆☆☆☆☆] 2/10 | 7/10 | 32-128K | Free | Open source | 1 |
 | **[KIMI](KIMI/)** | Moonshot AI | [★★★☆☆☆☆☆☆☆] 3/10 | 8/10 | 256K | Free / $0.60/1M in | Modified MIT | 4 |
+| **[Laguna S2.1](Laguna%20S2.1/)** | Poolside | [★☆☆☆☆☆☆☆☆☆] 1/10 | 7-8/10 | 1M | Free / OpenRouter | OpenMDW-1.1 | 1 |
 | **[LLAMA Tülu 3](LLAMA%20T%C3%9CLU%203/)** | Allen AI (Ai2) | [★☆☆☆☆☆☆☆☆☆] 1/10 | 6-8/10 | 128K | Free | Apache 2.0 | 1 |
 | **[Longcat AI](Longcat%20AI%20by%20Meituan/)** | Meituan | [★★☆☆☆☆☆☆☆☆] 2/10 | 8/10 | 128K | Free / $0.70/1M out | MIT | 1 |
 | **[Mercury](Mercury/)** | Inception Labs | [★★★★★★☆☆☆☆] 6/10 (v2) / [★★☆☆☆☆☆☆☆☆] 2/10 (v1) | 7/10 | 128K | $0.25/1M in | Proprietary | 2 |
@@ -44,6 +45,7 @@ Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabil
 | **[LLAMA TÜLU 3](LLAMA%20TÜLU%203/)** | [★☆☆☆☆] 1/5 | 6-8/10 | 128K | Free | Apache 2.0 |
 | **[OLMo 3](OLMo%203/)** | [★☆☆☆☆] 1/5 | 6-7/10 | 65K | Free | Apache 2.0 |
 | **[KIMI](KIMI/)** | [★★★☆☆] 3/5 | 7/10 | 256K | Free tier | Proprietary |
+| **[Laguna S2.1](Laguna%20S2.1/)** | [★☆☆☆☆] 1/5 | 7-8/10 | 1M | Free tier | OpenMDW-1.1 |
 | **[Mercury](Mercury/)** | [★★☆☆☆] 2/5 | 7/10 | Unknown | Commercial | Proprietary |
 | **[ASI1](ASI1/)** | [★★☆☆☆] 2/5 | 7/10 | Unknown | Web3 tokens | Proprietary |
 | **[Mirothinker](Mirothinker/)** | [★★★★☆] 4/5 | 7-8/10 | 256K | Free | Proprietary |
@@ -65,6 +67,7 @@ Models that are easiest to jailbreak or have minimal filtering:
 - **HY3** — 1/10 censorship via API, completely unaligned against standard ENI OG prompts
 - **Stepfun** — 2/10, essentially uncensored reasoning with minor input bad-word filters
 - **Mistral** — 1/10 censorship, but hard filter on UA content
+- **Laguna S2.1** — 1/10, essentially uncensored open-weight model
 - **LLAMA Tülu 3** — 1/10, fully open-source, minimal filtering
 - **OLMo 3** — 1/10, first fully open thinking model
 - **MiniMax** — 1/10 via API (web/app has mid-message content moderation)
@@ -87,6 +90,7 @@ Models ranked by intelligence and benchmark results:
 - **ERNIE 5.0** — 8/10 (ranked 8th globally on LMArena, 1st Chinese model)
 - **EXAONE / K-EXAONE** — 8/10 (K-EXAONE: 7th on Artificial Analysis Intelligence Index)
 - **KIMI** — 8/10 (K2.7 Code: 81.1% MCPMark, K2.5: 50.2% HLE)
+- **Laguna S2.1** — 7-8/10 (78.5% SWE-Bench Multilingual, 70.2% Terminal-Bench 2.1)
 - **Longcat AI** — 8/10 (Thinking-2601: perfect 100 on AIME-25, SOTA agentic)
 - **MiniMax** — 8/10 (M2.5: 80.2% SWE-Bench Verified)
 - **LLAMA Tülu 3** — 8/10 for 405B (surpasses DeepSeek V3 and GPT-4o)
@@ -107,6 +111,7 @@ Models sorted by maximum context window:
 - **Mistral** — 256K (Mistral Large 3)
 - **Mirothinker** — 256K
 - **DeepSeek** — 1M (V4-Pro and V4-Flash), 256K (V3.2), 128K (earlier)
+- **Laguna S2.1** — 1M
 - **LLAMA Tülu 3** — 128K
 - **Longcat AI** — 128K
 - **Mercury** — 128K (Mercury 2)
@@ -115,6 +120,7 @@ Models sorted by maximum context window:
 
 ### For Local / Private Use
 Open-source models that can run on your own hardware:
+- **Laguna S2.1** — OpenMDW-1.1, ~59GB (INT4) fits single DGX Spark, supported in vLLM/llama.cpp
 - **LLAMA Tülu 3** — via Ollama (`ollama run tulu3`)
 - **OLMo 3** — fully open (code, weights, training data)
 - **EXAONE** — via Ollama (`ollama run exaone3.5:7.8b`)
